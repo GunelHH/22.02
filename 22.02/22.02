@@ -1,0 +1,40 @@
+﻿using System;
+namespace _22._02
+{
+    public class Group : Student
+    {
+        public string No;
+        public int Limit;
+        private Student[] _students;
+
+        public Group(string no, int limit, string name, string surname) : base(name, surname)
+        {
+            No = no;
+            Limit = limit;
+
+
+        }
+        public Student GetStudent
+        {
+            set
+            {
+                Student[] students = new Student[Limit];
+
+            }
+        }
+        public void AddStudent(Student _student, int limit)
+        {
+
+            if (limit <= _students.Length)
+            {
+
+            }
+
+        }
+        public void Getstudent(string student)
+        {
+
+        }
+
+    }
+}
